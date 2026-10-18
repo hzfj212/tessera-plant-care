@@ -1,0 +1,33 @@
+# The manifest: who made the plugin, what it may do, and what the Tessera app shows. It holds no code and no words:
+# every name, label and hint below is a key into translations/<language>.json, part "app".
+# Every field is explained in docs/MANIFEST.md. Start a plugin of your own with: python3 tools/new_plugin.py <id>
+id: plant_care
+version: 0.1.0
+api: "0.10"
+icon: flower
+maintainer: your-github-name
+license: MIT
+# beta while it finds its feet, stable once people use it every day, example when it is there to learn from.
+stage: beta
+# What it is about, one or two of: time, weather, calendar, home, energy, travel, money, sports, news, media, photos,
+# fun, voice, tech (docs/MANIFEST.md, "What it is about"). None fits? Ask for a new topic in an issue of the plugins
+# repository.
+topics: [home]
+requires:
+  esphome: 2026.6.2
+boards: any
+flash_kb: 4
+
+tiles:
+  # A tile for one plant: when it was last watered and last fertilized, and a tap on a row says "done today". The dates
+  # are two entities of plugin.yaml, so they survive a restart and can be set from Home Assistant too.
+  - id: plant_care
+    name: tile_name
+    icon: flower
+    sizes: { min: 1x1, max: 2x1 }
+    memory: 800
+    example: tile_example
+    options:
+      - { id: what, kind: text, label: what, hint: what_hint }
+      - { id: water_every, kind: number, min: 1, max: 60, step: 1, unit: d, default: 7, label: water_every, hint: water_every_hint }
+      - { id: fert_every, kind: number, min: 1, max: 180, step: 1, unit: d, default: 30, label: fert_every, hint: fert_every_hint }

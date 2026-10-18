@@ -1,0 +1,25 @@
+{
+  "_meta": { "name": "Deutsch" },
+  "screen": {
+    "water_none": "Gegossen: -",
+    "water_today": "Gegossen: heute",
+    "water_yesterday": "Gegossen: gestern",
+    "water_days": "Gegossen: {n} T",
+    "fert_none": "Gedüngt: -",
+    "fert_today": "Gedüngt: heute",
+    "fert_yesterday": "Gedüngt: gestern",
+    "fert_days": "Gedüngt: {n} T"
+  },
+  "app": {
+    "name": "Pflanzenpflege",
+    "summary": "Zeigt, wann eine Pflanze zuletzt gegossen und gedüngt wurde. Ein Tipp auf dem Display trägt heute ein.",
+    "tile_name": "Pflanze",
+    "tile_example": "Monstera: vor 3 Tagen gegossen, vor 12 Tagen gedüngt",
+    "what": "Name der Pflanze",
+    "what_hint": "Steht oben auf der Kachel, zum Beispiel Monstera.",
+    "water_every": "Gießen alle",
+    "water_every_hint": "Nach so vielen Tagen wird der Punkt orange, etwas später rot.",
+    "fert_every": "Düngen alle",
+    "fert_every_hint": "Nach so vielen Tagen wird der Punkt orange, etwas später rot."
+  }
+}

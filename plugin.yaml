@@ -1,0 +1,24 @@
+# What a screen gets when it takes this plugin: the component, configured. Tessera includes this file from the screen's
+# <name>.plugins.yaml and adds this plugin's components/ folder as an ESPHome external component.
+
+# The two dates the tile shows. A tap on the screen sets one to today; Home Assistant shows them as date pickers, so an
+# older day can be set there. They are kept on the screen and restored after a restart.
+datetime:
+  - platform: template
+    id: plant_care_watered
+    name: "Plant last watered"
+    type: date
+    optimistic: true
+    restore_value: true
+    entity_category: config
+  - platform: template
+    id: plant_care_fertilized
+    name: "Plant last fertilized"
+    type: date
+    optimistic: true
+    restore_value: true
+    entity_category: config
+
+plant_care:
+  watered: plant_care_watered
+  fertilized: plant_care_fertilized

@@ -1,0 +1,25 @@
+{
+  "_meta": { "name": "English" },
+  "screen": {
+    "water_none": "Watered: -",
+    "water_today": "Watered: today",
+    "water_yesterday": "Watered: yesterday",
+    "water_days": "Watered: {n} d",
+    "fert_none": "Fed: -",
+    "fert_today": "Fed: today",
+    "fert_yesterday": "Fed: yesterday",
+    "fert_days": "Fed: {n} d"
+  },
+  "app": {
+    "name": "Plant care",
+    "summary": "Shows when a plant was last watered and fed, and a tap on the screen says done today.",
+    "tile_name": "Plant",
+    "tile_example": "Monstera: watered 3 d ago, fed 12 d ago",
+    "what": "Plant name",
+    "what_hint": "Shown at the top of the tile, such as Monstera.",
+    "water_every": "Water every",
+    "water_every_hint": "After this many days the dot turns amber, and red a while later.",
+    "fert_every": "Feed every",
+    "fert_every_hint": "After this many days the dot turns amber, and red a while later."
+  }
+}

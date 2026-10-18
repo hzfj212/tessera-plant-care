@@ -1,0 +1,6 @@
+# What tools/preview.py shows: the data of the tile on every kind of screen (docs/PREVIEW.md). The two dates are
+# entities of the screen, so the bench shows the rows as on a screen that has not been told a date yet.
+tiles:
+  - tile: plant_care
+    name: Monstera
+    options: { what: Monstera, water_every: 7, fert_every: 30 }
