@@ -5,7 +5,7 @@ id: plant_care
 version: 0.1.0
 api: "0.10"
 icon: flower
-maintainer: your-github-name
+maintainer: hzfj212
 license: MIT
 # beta while it finds its feet, stable once people use it every day, example when it is there to learn from.
 stage: beta
